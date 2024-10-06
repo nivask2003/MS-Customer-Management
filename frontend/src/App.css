@@ -1,0 +1,50 @@
+header .card{
+  box-shadow: 0 0 5px;
+}
+header .card .container-fluid h1{
+  color: orangered;
+  font-weight: bold;
+}
+.menu .link{
+  color: orangered;
+  text-decoration: none;
+  border-radius: 20px;
+
+}
+.menu .link:hover{
+  color: white;
+  background-color: orangered;
+}
+main .card .card-header{
+  background-color: orangered;
+}
+main .card .card-header small{
+  color: white;
+}
+main .card .container-fluid form .form-group .btn{
+  background-color: orangered;
+  margin-bottom: 10px;
+}
+.container table{
+  width: 100%;
+  border: 1px solid black;
+}
+.container table thead{
+  background-color: orangered;
+  color: white;
+}
+.container table thead tr th{
+  border: 1px solid white;
+}
+.container table tbody tr td{
+  border: 1px solid black;
+}
+@media screen and (max-width : 800px) {
+  header .card .container-fluid h1{
+    color: orangered;
+    font-weight: bold;
+    font-size: medium;
+  }
+}
+
+
