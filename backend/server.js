@@ -6,9 +6,10 @@ require('dotenv').config();
 const port = 5001;
 
 const app = express();
-app.use(cors(
-    [origin: 'https://ms-customer-management.netlify.app']
-));
+app.use(cors({
+    origin: 'https://ms-customer-management.netlify.app'
+}));
+
 app.use(express.json()); // Middleware to parse JSON bodies
 
 const client = new MongoClient(process.env.MONGODB_URI);
